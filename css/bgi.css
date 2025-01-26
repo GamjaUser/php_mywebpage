@@ -1,0 +1,28 @@
+body {
+    /* margin: 0;
+    background: #f75151; */
+    cursor: crosshair;
+    overflow: hidden;
+  }
+  canvas{
+    display:block;
+    z-index: -1;
+}
+.abso{
+    position: absolute;
+}
+#tt {
+    top: 7%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* color: #fff;
+    font-family: "Source Sans Pro";
+    font-size: 5em;
+    font-weight: 900; */
+    /* -webkit-user-select: none;
+    user-select: none; */
+  }
+
+#tf{
+    top: 15%;
+}

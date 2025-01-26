@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    input[type="submit"]{
+        background-color: green;
+        color: white;
+    }
+    input[type="reset"]{
+        background-color: gray;
+        color: white;
+    }
+</style>
+<body>
+    <form action="bmi.php" method="post">
+        신장 <input type="text" name="height" style="width:50px;">cm / 체중 <input type="text" name="weight" style="width:50px;">kg
+        &emsp;&emsp;
+        <input type="submit" value="계산">
+        <input type="reset" value="초기화">
+    </form>
+</body>
+</html>
